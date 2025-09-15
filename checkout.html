@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - YumWheels</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">YumWheels 🍔</a>
+                <ul class="nav-links" id="nav-links">
+                     <li><a href="index.html">Home</a></li>
+                    <li><a href="checkout.html">Cart <span id="cart-count">0</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="checkout-page">
+            <h2>Your Order Summary</h2>
+            <div id="cart-summary"></div>
+            <div id="cart-total"></div>
+
+            <div class="checkout-form">
+                <h3>Delivery & Payment</h3>
+                <form id="checkout-form">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="text" placeholder="Delivery Address" required>
+                    <h4>Payment Method</h4>
+                    <div class="payment-options">
+                        <label><input type="radio" name="payment" value="cc" checked> Credit Card</label>
+                        <label><input type="radio" name="payment" value="paypal"> PayPal</label>
+                        <label><input type="radio" name="payment" value="cod"> Cash on Delivery</label>
+                    </div>
+                    <button type="submit" class="btn">Place Order</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
