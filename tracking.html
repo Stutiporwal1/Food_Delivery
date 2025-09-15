@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Tracking - YumWheels</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">YumWheels</a>
+                <ul class="nav-links" id="nav-links">
+                     <li><a href="index.html">Home</a></li>
+                    <li><a href="checkout.html">Cart <span id="cart-count">0</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="tracking-container">
+            <h2>Track Your Order</h2>
+            <p><strong>Order ID:</strong> <span id="order-id"></span></p>
+            <div class="timeline">
+                <div class="timeline-item" id="status-placed">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Order Placed</h3>
+                        <p>We have received your order.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" id="status-preparing">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Preparing Food</h3>
+                        <p>The restaurant is preparing your meal.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" id="status-delivery">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Out for Delivery</h3>
+                        <p>Our delivery partner is on the way.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" id="status-delivered">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Delivered</h3>
+                        <p>Enjoy your meal!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
