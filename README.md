@@ -1,8 +1,8 @@
 # Food_Delivery
 
-## FoodieExpress – Online Food Delivery Website
+## YumWheels – Online Food Delivery Website
 
-FoodieExpress is a modern and user-friendly food delivery web application that allows customers to browse menus, order food online, and get it delivered right to their doorsteps.  
+YumWheels is a modern and user-friendly food delivery web application that allows customers to browse menus, order food online, and get it delivered right to their doorsteps.  
 It’s built for restaurants, cloud kitchens, and delivery services to simplify online ordering.
 
 ### Features
