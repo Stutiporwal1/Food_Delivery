@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - YumWheels</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+         <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">Admin Panel 🛠️</a>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="admin-dashboard">
+            <h2>Admin Dashboard</h2>
+            
+            <section class="admin-section">
+                <h3>Manage Menus</h3>
+                <form id="menu-item-form">
+                    <select id="restaurant-select" required></select>
+                    <input type="text" id="item-name" placeholder="Item Name" required>
+                    <input type="number" id="item-price" placeholder="Price" step="0.01" required>
+                    <input type="text" id="item-image" placeholder="Image URL (e.g., images/new.jpg)" required>
+                    <button type="submit" class="btn">Add Menu Item</button>
+                </form>
+            </section>
+            
+            <section class="admin-section">
+                <h3>Live Orders</h3>
+                <div id="orders-list">
+                    </div>
+            </section>
+        </div>
+    </main>
+</body>
+<script src="js/script.js"></script>
+</html>
