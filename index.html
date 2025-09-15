@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YumWheels - Order Food Online</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">YumWheels</a>
+                <div class="search-bar">
+                    <input type="text" id="searchInput" placeholder="Search for restaurants...">
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="checkout.html">Cart <span id="cart-count">0</span></a></li>
+                    </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="filters">
+            <div class="filter-group">
+                <label for="cuisine-filter">Cuisine:</label>
+                <select id="cuisine-filter">
+                    <option value="all">All</option>
+                    <option value="Italian">Italian</option>
+                    <option value="American">American</option>
+                    <option value="Japanese">Japanese</option>
+                    <option value="Mexican">Mexican</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="rating-filter">Min Rating:</label>
+                <select id="rating-filter">
+                    <option value="0">All</option>
+                    <option value="4.5">4.5+</option>
+                    <option value="4">4.0+</option>
+                    <option value="3.5">3.5+</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="restaurant-list">
+            <h2>Restaurants</h2>
+            <div id="restaurant-container" class="grid-container">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 YumWheels. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
