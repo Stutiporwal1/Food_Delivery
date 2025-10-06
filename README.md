@@ -19,4 +19,4 @@ It’s built for restaurants, cloud kitchens, and delivery services to simplify 
 ## Tech Stack
 
 **Frontend:**
-- HTML5, CSS3, JavaScript 
+- HTML, CSS, JavaScript 
